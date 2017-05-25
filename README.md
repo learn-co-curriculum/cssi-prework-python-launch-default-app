@@ -2,15 +2,16 @@
 
 The last technical part of the prework will be to launch an App Engine app so that you can get familiar with the GAE interface and file structure.
 
-##Objectives
+## Objectives
 * Launch a simple App Engine app
 * Add a handler to the app
 
 ## Google App Engine Launcher
 
-Managing projects on App Engine is infinitely easier with the GAE Launcher. Click [here](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python) to find the instructions for how to download and install it.
+Managing projects on App Engine is infinitely easier with the GAE Launcher. Click [here](https://storage.googleapis.com/appengine-sdks/featured/GoogleAppEngineLauncher-1.9.54.dmg) to download the Google App Engine Launcher for Mac. For PCs, click [here](https://storage.googleapis.com/appengine-sdks/featured/GoogleAppEngine-1.9.54.msi)
 
 ## Creating an app on GoogleAppEngineLauncher
+
 + Open up GoogleAppEngineLauncher
 
 + Create a new application by going to the File menu and picking "New Application..."
@@ -33,7 +34,7 @@ CONGRATS you just made MVP app in Google AppEngine.
 
 
 
-##What Did AppEngine do for you?
+## What Did AppEngine do for you?
 
 App Engine created two files in the location specified in the 'path' column of the Launcher, in this case, this should be your Desktop. Those two files were a configuration file, app.yaml and the file that instructed the app to display "Hello world!"
 
@@ -78,7 +79,7 @@ In main.py, notice that the webapp2 library is  **imported**. This allows us to 
 
 The last bit of code in main.py is the **route**, which maps the URLs to their handlers.
 
-##Creating a Handler
+## Creating a Handler
 If you need to create a new handler, there are typically two things to do:
 
 + Create a new handler class with a unique name
